@@ -410,6 +410,12 @@ class Main:
 		self.loop = 0
 		os.system("clear")
 		print(logo)
+		print("")
+		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+		print("\033[1;37m𝗡𝗢𝗧𝗘 : 𝗔𝗽𝗽𝗿𝗼𝘃𝗮𝗹 𝗞𝗮𝗬 𝗟𝗶𝗬 𝗙𝗮𝗰𝗲𝗕𝗼𝗼𝗸 𝗣𝗲𝗥 𝗔𝗱𝗱 𝗞𝗮𝗥 𝗟𝗮𝗬")
+		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
+		
+		
 		  print("\t \033[1;32m  FIRST GET APPROVEL\033[1;37m ")
   print("")
   print(" \033[1;32m  THIS TOOLS IS PAID SO YOU NEED GET APPROVED FIRST\033[1;37m\n")
@@ -444,6 +450,7 @@ class Main:
     	print(logo)
     	menu_apikey()
 menu_apikey()
+			os.system("clear")
 		print(logo)
 		print("\n [1] File Cloning")
 		print(" [2] Public Cloning")
