@@ -402,55 +402,7 @@ logo = ("""\033[1;32m
      \033[0;92m│ [✓] TOOLS    : \033[1;32m RANDOM NUMBER CLONER\033[1;37m  │
      \033[0;92m└───────────────────────────────────────┘""")
 
-class Main:
-	def __init__(self):
-		self.id = []
-		self.ok = []
-		self.cp = []
-		self.loop = 0
-		os.system("clear")
-		print(logo)
-		print("")
-		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
-		print("\033[1;37m𝗡𝗢𝗧𝗘 : 𝗔𝗽𝗽𝗿𝗼𝘃𝗮𝗹 𝗞𝗮𝗬 𝗟𝗶𝗬 𝗙𝗮𝗰𝗲𝗕𝗼𝗼𝗸 𝗣𝗲𝗥 𝗔𝗱𝗱 𝗞𝗮𝗥 𝗟𝗮𝗬")
-		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
-		
-		
-		  print("\t \033[1;32m  FIRST GET APPROVEL\033[1;37m ")
-  print("")
-  print(" \033[1;32m  THIS TOOLS IS PAID SO YOU NEED GET APPROVED FIRST\033[1;37m\n")
-  print("")
-  print("\x1b[1;92m   contract Admin to Buy this Tools                                                               ");time.sleep (0.1) 
-  print("")
-  print("\033[1;32     YOUR  KEY : "+id)
-  print("")
-  print("\033[1;31m   COPY YOUR KEY AND SEND TO ADMIN  ");time.sleep(0.1)
-  print("")
-  print("  Follow Admin Facebook ID,,,,,,,,,,,,,,,,,    ");time.sleep(1)
-  os.system('xdg-open https://www.facebook.com/halarput.link.coppy.korli.ken')
-  print("");time.sleep(2)
-  print("\x1b[0;34m  CHECKING YOUR APROVAL.............                                                ");time.sleep (0.5)
-  try:
-    httpCaht = requests.get("https://raw.githubusercontent.com/4S1M/h/main/Approve.txt").text
-    if id in httpCaht:
-      print("\033[1;92m   YOUR KEY APROVED  ");time.sleep(2)
-      msg = str(os.geteuid())
-      time.sleep(0.5)
-      pass
-    else:
-      
-      print("\x1b[1;92m    Sorry Bro Your Key not Aproved ")
-      print("    Send payment to Admin and get aproval"); time.sleep(2)
-      os.system('xdg-open https://wa.me/+8801828881765?text='+id)
-      time.sleep(2)
-      sys.exit()
-  except:
-    sys.exit()
-    if name == '__main__':
-    	print(logo)
-    	menu_apikey()
-menu_apikey()
-			os.system("clear")
+
 		print(logo)
 		print("\n [1] File Cloning")
 		print(" [2] Public Cloning")
