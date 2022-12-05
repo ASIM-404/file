@@ -402,7 +402,15 @@ logo = ("""\033[1;32m
      \033[0;92m│ [✓] TOOLS    : \033[1;32m RANDOM NUMBER CLONER\033[1;37m  │
      \033[0;92m└───────────────────────────────────────┘""")
 
-  print("\t \033[1;32m  FIRST GET APPROVEL\033[1;37m ")
+class Main:
+	def __init__(self):
+		self.id = []
+		self.ok = []
+		self.cp = []
+		self.loop = 0
+		os.system("clear")
+		print(logo)
+		  print("\t \033[1;32m  FIRST GET APPROVEL\033[1;37m ")
   print("")
   print(" \033[1;32m  THIS TOOLS IS PAID SO YOU NEED GET APPROVED FIRST\033[1;37m\n")
   print("")
